@@ -120,3 +120,6 @@ h1 {
 .even_odd {
   margin-bottom: 100px;
 }
+.hidden {
+  display: none;
+}
