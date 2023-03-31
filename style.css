@@ -110,10 +110,13 @@ h1 {
 }
 
 .message {
-  margin-bottom: 8rem;
+  margin-bottom: 2rem;
   height: 3rem;
 }
 
 .label-score {
   margin-bottom: 2rem;
+}
+.even_odd {
+  margin-bottom: 100px;
 }

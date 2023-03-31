@@ -16,6 +16,12 @@ const displayMessage = function (message) {
   document.querySelector('.message').textContent = message;
 };
 
+if (secretNumber % 2 == 0) {
+  document.querySelector('.even_odd').textContent = 'The number is even';
+} else {
+  document.querySelector('.even_odd').textContent = 'The number is odd';
+}
+
 document.querySelector('.check').addEventListener('click', function () {
   const guess = Number(document.querySelector('.guess').value);
 
@@ -56,11 +62,11 @@ document.querySelector('.check').addEventListener('click', function () {
 });
 
 document.querySelector('.again').addEventListener('click', function () {
-  score = 20;
-  document.querySelector('.score').textContent = score;
-  document.querySelector('.number').textContent = '?';
-  displayMessage('Enter number!');
-  document.querySelector('.guess').value = '';
-  document.querySelector('body').style.backgroundColor = '#222';
-  document.querySelector('.number').style.width = '15rem';
+  // score = 20;
+  // document.querySelector('.score').textContent = score;
+  // document.querySelector('.number').textContent = '?';
+  // displayMessage('Enter number!');
+  // document.querySelector('.guess').value = '';
+  // document.querySelector('body').style.backgroundColor = '#222';
+  // document.querySelector('.number').style.width = '15rem';
 });
